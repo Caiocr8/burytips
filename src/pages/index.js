@@ -1154,7 +1154,8 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
             display: `grid`,
             gridTemplateColumns: `repeat(2, minmax(0, 1fr))`,
             gridTemplateRows: `repeat(6, minmax(0, 1fr))`,
-            padding: `50px`,
+            padding: `140px`,
+            marginLeft: `120px`,
           }}
         >
             <div
@@ -1166,7 +1167,16 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
                 borderRadius: `31.297px`,
               }}
             >
-
+              <p
+                style={{
+                  padding: `14px`,
+                  fontSize: `20px`,
+                  lineHeight: `19px`,
+                  color: `#FFFFFF`,
+                  fontWeight: `800px`,
+                  fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                }}
+              >Como funciona o serviço?</p>
             </div>
             <div
               style={{
@@ -1177,7 +1187,16 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
                 borderRadius: `31.297px`,
               }}
             >
-
+              <p
+                style={{
+                  padding: `14px`,
+                  fontSize: `20px`,
+                  lineHeight: `19px`,
+                  color: `#FFFFFF`,
+                  fontWeight: `800px`,
+                  fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                }}
+              > Como funciona a gestão?</p>
             </div>
             <div
               style={{
@@ -1188,7 +1207,16 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
                 borderRadius: `31.297px`,
               }}
             >
-
+              <p
+                style={{
+                  padding: `14px`,
+                  fontSize: `20px`,
+                  lineHeight: `19px`,
+                  color: `#FFFFFF`,
+                  fontWeight: `800px`,
+                  fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                }}
+              > Vocês fazem minhas apostas?</p>
             </div>
             <div
               style={{
@@ -1199,7 +1227,16 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
                 borderRadius: `31.297px`,
               }}
             >
-
+              <p
+                style={{
+                  padding: `14px`,
+                  fontSize: `20px`,
+                  lineHeight: `19px`,
+                  color: `#FFFFFF`,
+                  fontWeight: `800px`,
+                  fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                }}
+              >As apostas são Pré-Jogo ou Ao Vivo?</p>
             </div>
             <div
               style={{
@@ -1210,7 +1247,17 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
                 borderRadius: `31.297px`,
               }}
             >
-
+              <p
+                style={{
+                  padding: `14px`,
+                  fontSize: `20px`,
+                  lineHeight: `19px`,
+                  color: `#FFFFFF`,
+                  fontWeight: `800px`,
+                  fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                }}
+              > Qual a média de lucro mensal?
+              </p>
             </div>
             <div
               style={{
@@ -1221,7 +1268,38 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
                 borderRadius: `31.297px`,
               }}
             >
-
+              <p
+                style={{
+                  padding: `14px`,
+                  fontSize: `20px`,
+                  lineHeight: `19px`,
+                  color: `#FFFFFF`,
+                  fontWeight: `800px`,
+                  fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                }}
+              >Quais mercados vocês mais atuam?</p>
+            </div>
+            <div
+              style={{
+                marginTop: `10px`,
+                width: `603.4px`,
+                height: `72.96px`,              
+                background: `rgba(0, 0, 0, 0.7)`,
+                borderRadius: `31.297px`,
+              }}
+            >
+              <p
+                style={{
+                  padding: `14px`,
+                  fontSize: `20px`,
+                  lineHeight: `19px`,
+                  color: `#FFFFFF`,
+                  fontWeight: `800px`,
+                  fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                }}
+              >Eu tenho meu emprego fixo, consigo conciliar com o 
+              investimento nas apostas esportivas?
+              </p>
             </div>
             <div
               style={{
@@ -1232,7 +1310,38 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
                 borderRadius: `31.297px`,
               }}
             >
-
+              <p
+                style={{
+                  padding: `14px`,
+                  fontSize: `20px`,
+                  lineHeight: `19px`,
+                  color: `#FFFFFF`,
+                  fontWeight: `800px`,
+                  fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                }}
+              >Quais esportes vocês operam?</p>
+            </div>
+            <div
+              style={{
+                marginTop: `10px`,
+                width: `603.4px`,
+                height: `72.96px`,              
+                background: `rgba(0, 0, 0, 0.7)`,
+                borderRadius: `31.297px`,
+              }}
+            >
+              <p
+                style={{
+                  padding: `14px`,
+                  fontSize: `20px`,
+                  lineHeight: `19px`,
+                  color: `#FFFFFF`,
+                  fontWeight: `800px`,
+                  fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                }}
+              > Como vocês conseguem se manter lucrativos por tanto
+              tempo consecutivo?
+             </p>
             </div>
             <div
               style={{
@@ -1243,51 +1352,58 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
                 borderRadius: `31.297px`,
               }}
             >
-
+              <p
+                style={{
+                  padding: `14px`,
+                  fontSize: `20px`,
+                  lineHeight: `19px`,
+                  color: `#FFFFFF`,
+                  fontWeight: `800px`,
+                  fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                }}
+              >Tenho suporte em caso de dificuldades de adaptação?</p>
             </div>
             <div
               style={{
                 marginTop: `10px`,
                 width: `603.4px`,
-                height: `48.15px`,              
+                height: `72.96px`,              
                 background: `rgba(0, 0, 0, 0.7)`,
                 borderRadius: `31.297px`,
               }}
             >
-
+              <p
+                style={{
+                  padding: `14px`,
+                  fontSize: `20px`,
+                  lineHeight: `19px`,
+                  color: `#FFFFFF`,
+                  fontWeight: `800px`,
+                  fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                }}
+              >Apostas dá a entender que é algo somente para 
+              “brincar” ou se divertir. </p>
             </div>
             <div
               style={{
                 marginTop: `10px`,
                 width: `603.4px`,
-                height: `48.15px`,              
+                height: `72.96px`,              
                 background: `rgba(0, 0, 0, 0.7)`,
                 borderRadius: `31.297px`,
               }}
             >
-
-            </div>
-            <div
-              style={{
-                marginTop: `10px`,
-                width: `603.4px`,
-                height: `48.15px`,              
-                background: `rgba(0, 0, 0, 0.7)`,
-                borderRadius: `31.297px`,
-              }}
-            >
-
-            </div>
-            <div
-              style={{
-                marginTop: `10px`,
-                width: `603.4px`,
-                height: `48.15px`,              
-                background: `rgba(0, 0, 0, 0.7)`,
-                borderRadius: `31.297px`,
-              }}
-            >
-
+              <p
+                style={{
+                  padding: `14px`,
+                  fontSize: `20px`,
+                  lineHeight: `19px`,
+                  color: `#FFFFFF`,
+                  fontWeight: `800px`,
+                  fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                }}
+              >Vocês possuem alguma rede social para que eu possa
+              acompanhar o trabalho?</p>
             </div>
         </div>
     </section>
@@ -1298,9 +1414,13 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
       backgroundRepeat: `no-repeat`,
       backgroundSize: `cover`,
       backgroundAttachment: `local`,
+      paddingTop: `500px`,
+      display: `grid`,
+      gridTemplateColumns: `repeat(2, minmax(0, 1fr))`,
       }}
       >
-      
+        
+        
     </section>
   </div>  
 )
