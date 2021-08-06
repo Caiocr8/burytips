@@ -1415,11 +1415,140 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
       backgroundSize: `cover`,
       backgroundAttachment: `local`,
       paddingTop: `500px`,
-      display: `grid`,
-      gridTemplateColumns: `repeat(2, minmax(0, 1fr))`,
       }}
       >
-        
+        <div
+          style={{
+            display: `grid`,
+            gridTemplateColumns: `repeat(2, minmax(0, 1fr))`,
+            width: `1903px`,
+            height: `315.05px`,
+            background: `rgba(0, 0, 0, 0.7)`,
+          }}
+        >
+          <div
+            style={{
+              padding: `50px`,
+            }}
+          >
+            <div>
+              <StaticImage
+                src="../images/logo_footer.svg"
+                quality={100}
+                placeholder="blurred"
+                layout="fixed"
+              />
+            </div>
+          </div>
+          <div>
+            <div 
+            style={{
+              display: `grid`,
+              gridTemplateColumns: `repeat(2, minmax(0, 1fr))`,
+              paddingTop: `15px`,
+              }}
+            >
+              <div
+                style={{
+                  width: `290.31px`,
+                  height: `204.35px`,
+                  background: `rgba(0, 0, 0, 0.7)`,
+                  borderRadius: `31.297px`,
+                  padding: `10px`,
+                  marginLeft: `180px`,
+                  
+                }}
+              >
+                <h1
+                  style={{
+                    width: `218.01px`,
+                    height: `18px`,
+                    fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                    fontSize: `24px`,
+                    lineHeight: `29px`,
+                    textAlign: `center`,
+                    color: `#FFFFFF`,
+                  }}
+                >CONTATOS</h1>
+                <p
+                  style={{
+                    fontSize: `17px`,
+                    lineHeight: `20px`,
+                    textAlign: `justify`,
+                    color: `ThreeDLightShadow`,
+                    marginTop: `10px`,
+  
+                  }}  
+                >(62) 9917 - 6902 | (83) 99991 - 6709 <br /> <span style={{color: `#FFFFFF`, fontWeight: `700`,}}>contato@burityps.com.br</span> <br /></p>
+                <p style={{color: `#FFFFFF`, fontWeight: `700`, paddingTop: `20px`,}}>Redes Sociais:</p>
+                <div
+                  style={{
+                    display: `grid`,
+                    gridTemplateColumns: `repeat(2, minmax(0, 1fr))`,
+                  }}
+                >
+                  <StaticImage
+                    src="../images/insta.svg"
+                    quality={100}
+                    placeholder="blurred"
+                    layout="fixed"
+                  />
+                  <StaticImage
+                    src="../images/tt.svg"
+                    quality={100}
+                    placeholder="blurred"
+                    layout="fixed"
+                  />
+                </div>
+
+
+              </div>
+              <div
+                style={{
+                  width: `423.11px`,
+                  height: `204.35px`,
+                  background: `rgba(0, 0, 0, 0.7)`,
+                  borderRadius: `31.297px`,
+                }}
+              >
+                  
+              </div>
+            </div>
+            <button
+              style={{
+                marginLeft: `190px`,
+                margin: `20px`,
+                width: `706.36px`,
+                height: `48.15px`,
+                background: `rgba(0, 0, 0, 0.7)`,
+                borderRadius: `31.297px`,
+                display: `grid`,
+                gridTemplateColumns: `repeat(2, minmax(0, 1fr))`,
+                padding: `5px`,
+              }}
+            >
+              <div>
+                  <StaticImage
+                    src="../images/wpp_p.svg"
+                    quality={100}
+                    placeholder="blurred"
+                    layout="fixed"
+                  />
+              </div>
+              <p
+                style={{
+                  width: `306.18px`,
+                  height: `12.95px`,
+                  fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                  fontSize: `16px`,
+                  lineHeight: `19px`,
+                  color: `#FFFFFF`,
+                  textAlign: `center`,
+                }}
+              >Fale direto pelo whatsapp</p>
+            </button>
+          </div>
+        </div>
         
     </section>
   </div>  
