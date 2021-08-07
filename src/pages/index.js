@@ -1428,6 +1428,7 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
         >
           <div
             style={{
+              paddingLeft: `250px`,
               padding: `50px`,
             }}
           >
@@ -1464,7 +1465,7 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
                     width: `218.01px`,
                     height: `18px`,
                     fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
-                    fontSize: `24px`,
+                    fontSize: `29px`,
                     lineHeight: `29px`,
                     textAlign: `center`,
                     color: `#FFFFFF`,
@@ -1487,18 +1488,26 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
                     gridTemplateColumns: `repeat(2, minmax(0, 1fr))`,
                   }}
                 >
-                  <StaticImage
-                    src="../images/insta.svg"
-                    quality={100}
-                    placeholder="blurred"
-                    layout="fixed"
-                  />
-                  <StaticImage
-                    src="../images/tt.svg"
-                    quality={100}
-                    placeholder="blurred"
-                    layout="fixed"
-                  />
+                  <button>
+                    <StaticImage
+                      src="../images/insta.svg"
+                      quality={100}
+                      placeholder="blurred"
+                      layout="fixed"
+                    />
+                  </button>
+                  <button
+                    style={{
+                      marginLeft: `-70px`,
+                    }}                        
+                  >
+                    <StaticImage
+                      src="../images/tt.svg"
+                      quality={100}
+                      placeholder="blurred"
+                      layout="fixed"
+                    />
+                  </button>
                 </div>
 
 
@@ -1511,7 +1520,50 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
                   borderRadius: `31.297px`,
                 }}
               >
-                  
+                <h1
+                  style={{
+                    width: `271.53px`,
+                    height: `18px`,                 
+                    fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
+                    fontSize: `29px`,
+                    lineHeight: `29px`,                  
+                    textAlign: `center`,              
+                    color: `#FFFFFF`,
+                    padding: `13px`,                    
+                  }}
+                >NOVIDADES</h1>
+                <p
+                  style={{
+                    fontSize: `17px`,
+                    lineHeight: `20px`,
+                    textAlign: `justify`,
+                    color: `ThreeDLightShadow`,
+                    marginTop: `10px`,
+                    padding: `10px`,
+                  }}
+                >Preencha seu e-mail abixo para receber novidades <br /> exclusivas. Fique tranquilo, não enviaremos nenhum <br /> tipo de spam</p>
+                <form>
+                  <input type="email" placeholder="Digite seu email"
+                    style={{
+                      width: `280.09px`,
+                      height: `43.73px`,
+                      background: `#D8D8D8`,
+                      borderRadius: `14px`,
+                      marginLeft: `10px`,
+                      paddingLeft: `10px`,
+                    }}
+                  > 
+                  </input>
+                  <button type="submit"
+                    style={{
+                      width: `107.34px`,
+                      height: `43.73px`,
+                      background: `#0EDB69`,
+                      borderRadius: `14px`,
+                      marginLeft: `5px`,
+                    }}
+                  ><p style={{color: `white`, fontSize: `20px`, fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,}}>Enviar</p></button>                  
+                </form>
               </div>
             </div>
             <button
@@ -1528,26 +1580,43 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
               }}
             >
               <div>
-                  <StaticImage
-                    src="../images/wpp_p.svg"
-                    quality={100}
-                    placeholder="blurred"
-                    layout="fixed"
-                  />
+                <StaticImage
+                  src="../images/wpp_p.svg"
+                  quality={100}
+                  placeholder="blurred"
+                  layout="fixed"
+                />
               </div>
               <p
                 style={{
                   width: `306.18px`,
                   height: `12.95px`,
                   fontFamily: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`,
-                  fontSize: `16px`,
+                  fontSize: `22px`,
                   lineHeight: `19px`,
                   color: `#FFFFFF`,
                   textAlign: `center`,
+                  marginLeft: `-150px`,
+                  paddingTop: `8px`,
+                  fontWeight: `600`,
                 }}
               >Fale direto pelo whatsapp</p>
             </button>
           </div>
+        </div>
+        <div
+          style={{
+            marginLeft: `30px`,
+          }}
+        >
+          <button>
+            <StaticImage
+                src="../images/wpp.svg"
+                quality={100}
+                placeholder="blurred"
+                layout="fixed"
+              />
+          </button>   
         </div>
         
     </section>
