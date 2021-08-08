@@ -13,7 +13,7 @@ import Header from "../components/header"
 const IndexPage = () => (
   <div class="  ">
     <section
-      class=" "
+      id="home"
       style={{ backgroundImage: `url(${bg1})`,
       width: `100%`,
       height: `100vh`,
@@ -98,7 +98,8 @@ const IndexPage = () => (
           </div>  
         </div>    
     </section>
-    <section         
+    <section 
+      id="empresa"        
       style={{ backgroundImage: `url(${bg2})`,
       width: `100%`,
       height: `100vh`,
@@ -154,7 +155,7 @@ const IndexPage = () => (
 Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melhor resultado possível para nossa família, e sim, somos uma grande família que cresce a cada dia. Resultado disso são  centenas de vidas transformadas ao longo de mais de um ano de serviços prestados, sempre com os pés no chão e passando nossa visão pra quem nos segue e isso não tem preço.</p>
         </div>
     </section>
-    <section 
+    <section
       style={{ backgroundImage: `url(${bg3})`,
       width: `100%`,
       height: `100vh`,
@@ -217,7 +218,8 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
         </button>
         </div>
     </section>
-    <section 
+    <section
+      id="planos" 
       style={{ backgroundImage: `url(${bg4})`,
       width: `100%`,
       height: `100vh`,
@@ -349,7 +351,8 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
         </div>
 
     </section>
-    <section 
+    <section
+      id="rr" 
       style={{ backgroundImage: `url(${bg5})`,
       width: `100%`,
       height: `100vh`,
@@ -438,7 +441,8 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
             
     </section>
     
-    <section 
+    <section
+      id="resultados" 
       style={{ backgroundImage: `url(${bg2})`,
       width: `100%`,
       height: `100vh`,
@@ -1127,7 +1131,8 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
           </div>
         </div>
     </section>
-    <section 
+    <section
+      id="perguntas" 
       style={{ backgroundImage: `url(${bg6})`,
       width: `100%`,
       height: `100vh`,
@@ -1407,7 +1412,8 @@ Nossos profissionais se dedicam 24 horas 7 dias por semana para entregar o melho
             </div>
         </div>
     </section>
-    <section 
+    <section
+      id="fale" 
       style={{ backgroundImage: `url(${bg7})`,
       width: `100%`,
       height: `100vh`,

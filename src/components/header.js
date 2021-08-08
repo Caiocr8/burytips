@@ -24,7 +24,7 @@ function Header() {
                 paddingTop: `20px`,
             }}
         >
-          <a href="#"
+          <a href="#home"
             style={{
                 paddingTop: `2px`,
                 backgroundColor: `#0EDB69`,
@@ -35,7 +35,7 @@ function Header() {
           >
             <li style={{fontWeight: `700`,}}>HOME</li>
           </a>
-          <a href="#"
+          <a href="#empresa"
             style={{
                 marginLeft: `10px`,
                 backgroundColor: `#0EDB69`,
@@ -47,7 +47,7 @@ function Header() {
           >
             <li style={{fontWeight: `700`,}}>EMPRESA</li>
           </a>
-          <a href="#"            
+          <a href="#planos"            
             style={{
                 backgroundColor: `#0EDB69`,
                 borderRadius: `10px`,
@@ -59,7 +59,7 @@ function Header() {
           >
             <li style={{fontWeight: `700`,}}>PLANOS</li>
           </a>
-          <a href="#"       
+          <a href="#rr"       
             style={{
                 backgroundColor: `#0EDB69`,
                 borderRadius: `10px`,
@@ -71,7 +71,7 @@ function Header() {
           >
             <li style={{fontWeight: `700`,}}>RENNAN E RAYAN</li>
           </a>
-          <a href="#"                 
+          <a href="#perguntas"                 
             style={{
                 backgroundColor: `#0EDB69`,
                 borderRadius: `10px`,
@@ -83,7 +83,7 @@ function Header() {
           >
             <li style={{fontWeight: `700`,}}>PERGUNTAS FREQUENTES</li>
           </a>
-          <a href="#"         
+          <a href="#resultados"         
             style={{
                 backgroundColor: `#0EDB69`,
                 borderRadius: `10px`,
@@ -95,7 +95,7 @@ function Header() {
           >
             <li style={{fontWeight: `700`,}}>RESULTADOS</li>
           </a>
-          <a href="#"                      
+          <a href="#fale"                      
             style={{
                 backgroundColor: `#0EDB69`,
                 borderRadius: `10px`,
