@@ -11,6 +11,12 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-postcss",
     {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        duration: 1000,
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",

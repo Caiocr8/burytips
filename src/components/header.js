@@ -1,116 +1,90 @@
-import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import { a } from "gatsby"
+import React from "react";
 
 function Header() {
   return (
-    <div 
-    style={{
-      display: `flex`,
-      justifyContent:`center`,
-  }}
+    <ul
+      style={{
+        display: `flex`,
+        fontSize: `1.5vw`,
+        padding: `2vw`,
+        fontWeight: `700`,
+        justifyContent: `space-between`,
+        position: `absolute`,
+        width: `100%`,
+      }}
     >
-      <div
+      <a
+        href="#home"
         style={{
-            zIndex: `20`,
-            position: `fixed`,
+          padding: `1vh`,
+          backgroundColor: `#0EDB69`,
+          borderRadius: `10px`,
         }}
       >
-        <ul
-            style={{
-                display: `flex`,
-                textAlign: `center`,
-                fontSize: `20px`,
-                paddingTop: `20px`,
-            }}
-        >
-          <a href="#home"
-            style={{
-                paddingTop: `2px`,
-                backgroundColor: `#0EDB69`,
-                borderRadius: `10px`,
-                width: `122px`,
-                height: `38px`,
-            }}
-          >
-            <li style={{fontWeight: `700`,}}>HOME</li>
-          </a>
-          <a href="#empresa"
-            style={{
-                marginLeft: `10px`,
-                backgroundColor: `#0EDB69`,
-                borderRadius: `10px`,
-                width: `152px`,
-                height: `38px`,
-                paddingTop: `2px`,
-            }}           
-          >
-            <li style={{fontWeight: `700`,}}>EMPRESA</li>
-          </a>
-          <a href="#planos"            
-            style={{
-                backgroundColor: `#0EDB69`,
-                borderRadius: `10px`,
-                width: `122px`,
-                height: `38px`,
-                paddingTop: `2px`,
-                marginLeft: `10px`,
-            }}            
-          >
-            <li style={{fontWeight: `700`,}}>PLANOS</li>
-          </a>
-          <a href="#rr"       
-            style={{
-                backgroundColor: `#0EDB69`,
-                borderRadius: `10px`,
-                width: `218px`,
-                height: `38px`,
-                paddingTop: `2px`,
-                marginLeft: `10px`,
-            }}            
-          >
-            <li style={{fontWeight: `700`,}}>RENNAN E RAYAN</li>
-          </a>
-          <a href="#perguntas"                 
-            style={{
-                backgroundColor: `#0EDB69`,
-                borderRadius: `10px`,
-                width: `300px`,
-                height: `38px`,
-                paddingTop: `2px`,
-                marginLeft: `10px`,
-            }}       
-          >
-            <li style={{fontWeight: `700`,}}>PERGUNTAS FREQUENTES</li>
-          </a>
-          <a href="#resultados"         
-            style={{
-                backgroundColor: `#0EDB69`,
-                borderRadius: `10px`,
-                width: `179px`,
-                height: `38px`,
-                paddingTop: `2px`,
-                marginLeft: `10px`,
-            }}          
-          >
-            <li style={{fontWeight: `700`,}}>RESULTADOS</li>
-          </a>
-          <a href="#fale"                      
-            style={{
-                backgroundColor: `#0EDB69`,
-                borderRadius: `10px`,
-                width: `219px`,
-                height: `38px`,
-                paddingTop: `2px`,
-                marginLeft: `10px`,
-            }}
-          >
-            <li style={{fontWeight: `700`,}}>FALE CONOSCO</li>
-          </a>
-        </ul>
-      </div>
-    </div>
-  )
+        <li>HOME</li>
+      </a>
+      <a
+        href="#empresa"
+        style={{
+          padding: `1vh`,
+          backgroundColor: `#0EDB69`,
+          borderRadius: `10px`,
+        }}
+      >
+        <li style={{ fontWeight: `700` }}>EMPRESA</li>
+      </a>
+      <a
+        href="#planos"
+        style={{
+          padding: `1vh`,
+          backgroundColor: `#0EDB69`,
+          borderRadius: `10px`,
+        }}
+      >
+        <li style={{ fontWeight: `700` }}>PLANOS</li>
+      </a>
+      <a
+        href="#rr"
+        style={{
+          padding: `1vh`,
+          backgroundColor: `#0EDB69`,
+          borderRadius: `10px`,
+        }}
+      >
+        <li style={{ fontWeight: `700` }}>RENNAN E RAYAN</li>
+      </a>
+      <a
+        href="#perguntas"
+        style={{
+          padding: `1vh`,
+          backgroundColor: `#0EDB69`,
+          borderRadius: `10px`,
+        }}
+      >
+        <li style={{ fontWeight: `700` }}>PERGUNTAS FREQUENTES</li>
+      </a>
+      <a
+        href="#resultados"
+        style={{
+          padding: `1vh`,
+          backgroundColor: `#0EDB69`,
+          borderRadius: `10px`,
+        }}
+      >
+        <li style={{ fontWeight: `700` }}>RESULTADOS</li>
+      </a>
+      <a
+        href="#fale"
+        style={{
+          padding: `1vh`,
+          backgroundColor: `#0EDB69`,
+          borderRadius: `10px`,
+        }}
+      >
+        <li style={{ fontWeight: `700` }}>FALE CONOSCO</li>
+      </a>
+    </ul>
+  );
 }
 
-export default Header
+export default Header;
