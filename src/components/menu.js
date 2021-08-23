@@ -22,29 +22,38 @@ const Wrapper = styled.div`
 	}
 `;
 
+const Divisoria = styled.div`
+	margin-top: 1rem;
+	width: 100%;
+	height: 0.2rem;
+	background: black;
+	border-radius: 5px;
+	position: relative;
+`;
+
 const MenuIcon = styled.button`
 	position: fixed;
 	padding: 0.5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 1.5rem;
+	height: 2.5rem;
 	background: #0edb69;
 	border: none;
 	cursor: pointer;
-	z-index: 5;
+	z-index: 9;
 	visibility: hidden;
 	@media only screen and (max-width: 1000px) {
 		visibility: visible;
 	}
 	div {
-		margin: 1rem;
 		width: 1.5rem;
 		height: 0.2rem;
 		background: black;
 		border-radius: 5px;
 		transform-origin: 1px;
 		position: relative;
+		z-index: 10;
 		transition: opacity 300ms, transform 300ms;
 
 		:first-child {
@@ -113,85 +122,31 @@ const Menu = () => {
 			<MenuLinks nav={nav}>
 				<ul>
 					<li>
-						<a href="#home">HOME</a>
+						<a href="#home"nav={nav} onClick={() => showNav(!nav)}>HOME</a>
 					</li>
-					<div
-						style={{
-							marginTop: `1rem`,
-							width: `100%`,
-							height: `0.2rem`,
-							background: `black`,
-							borderRadius: `5px`,
-							position: `relative`,
-						}}
-					/>
+					<Divisoria />
 					<li>
-						<a href="#empresa">EMPRESA</a>
+						<a href="#empresa"nav={nav} onClick={() => showNav(!nav)}>EMPRESA</a>
 					</li>
-					<div
-						style={{
-							marginTop: `1rem`,
-							width: `100%`,
-							height: `0.2rem`,
-							background: `black`,
-							borderRadius: `5px`,
-							position: `relative`,
-						}}
-					/>
+					<Divisoria />
 					<li>
-						<a href="#planos">PLANOS</a>
+						<a href="#planos" nav={nav} onClick={() => showNav(!nav)}>PLANOS</a>
 					</li>
-					<div
-						style={{
-							marginTop: `1rem`,
-							width: `100%`,
-							height: `0.2rem`,
-							background: `black`,
-							borderRadius: `5px`,
-							position: `relative`,
-						}}
-					/>
+					<Divisoria />
 					<li>
-						<a href="#rr">RENNAN E RAYAN</a>
+						<a href="#rr"nav={nav} onClick={() => showNav(!nav)}>RENNAN E RAYAN</a>
 					</li>
-					<div
-						style={{
-							marginTop: `1rem`,
-							width: `100%`,
-							height: `0.2rem`,
-							background: `black`,
-							borderRadius: `5px`,
-							position: `relative`,
-						}}
-					/>
+					<Divisoria />
 					<li>
-						<a href="#perguntas">PERGUNTAS FREQUENTES</a>
+						<a href="#perguntas"nav={nav} onClick={() => showNav(!nav)}>PERGUNTAS FREQUENTES</a>
 					</li>
-					<div
-						style={{
-							marginTop: `1rem`,
-							width: `100%`,
-							height: `0.2rem`,
-							background: `black`,
-							borderRadius: `5px`,
-							position: `relative`,
-						}}
-					/>
+					<Divisoria />
 					<li>
-						<a href="#resultados">RESULTADOS</a>
+						<a href="#resultados"nav={nav} onClick={() => showNav(!nav)}>RESULTADOS</a>
 					</li>
-					<div
-						style={{
-							marginTop: `1rem`,
-							width: `100%`,
-							height: `0.2rem`,
-							background: `black`,
-							borderRadius: `5px`,
-							position: `relative`,
-						}}
-					/>
+					<Divisoria />
 					<li>
-						<a href="#fale">FALE CONOSCO</a>
+						<a href="#fale"nav={nav} onClick={() => showNav(!nav)}>FALE CONOSCO</a>
 					</li>
 				</ul>
 			</MenuLinks>

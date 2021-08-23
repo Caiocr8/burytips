@@ -131,7 +131,7 @@ const TextMateria2 = styled.p`
 `;
 
 const Pergunta = styled.a`
-margin:2vw;
+	margin: 2vw;
 	width: 44vw;
 	background: rgba(0, 0, 0, 0.7);
 	border-radius: 31.297px;
@@ -168,7 +168,36 @@ const Resposta = styled.p`
 	}
 `;
 
+const Flex1100Inverse = styled.div`
+	display: flex;
+	flex-direction: row;
+	@media only screen and (max-width: 1100px) {
+		flex-direction: column-reverse;
+		place-items: center;
+		place-content: center;
+	}
+`;
+const FaleCard = styled.div`
+	width: 290.31px;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 31.297px;
+	padding: 10px;
+	margin:1vw;
+	@media only screen and (max-width: 1100px) {
+		width: 100%;
+		margin:2vw;
+	}
+`;
+
 const Whatsapp = styled.button`
+	margin: 1vw;
+	width: 100%;
+	height: 48.15px;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 31.297px;
+	display: Flex;
+	padding: 5px;
+	align-items: center;
 	@media only screen and (max-width: 600px) {
 		visibility: hidden;
 	}
@@ -1498,9 +1527,10 @@ const IndexPage = () => (
 				backgroundRepeat: `no-repeat`,
 				backgroundSize: `cover`,
 				backgroundAttachment: `local`,
+				backgroundPosition: `center`,
 				paddingTop: `500px`,
 			}}>
-			<Flex1100
+			<Flex1100Inverse
 				style={{
 					width: `100%`,
 					background: `rgba(0, 0, 0, 0.7)`,
@@ -1520,14 +1550,7 @@ const IndexPage = () => (
 							display: `flex`,
 							justifyContent: `space-between`,
 						}}>
-						<div
-							style={{
-								width: `290.31px`,
-								height: `204.35px`,
-								background: `rgba(0, 0, 0, 0.7)`,
-								borderRadius: `31.297px`,
-								padding: `10px`,
-							}}>
+						<FaleCard>
 							<h1
 								style={{
 									width: `218.01px`,
@@ -1590,14 +1613,8 @@ const IndexPage = () => (
 									/>
 								</button>
 							</div>
-						</div>
-
-						<div
-							style={{
-								padding: `1vw`,
-								background: `rgba(0, 0, 0, 0.7)`,
-								borderRadius: `31.297px`,
-							}}>
+						</FaleCard>
+						<FaleCard>
 							<h1
 								style={{
 									width: `218.01px`,
@@ -1619,12 +1636,11 @@ const IndexPage = () => (
 									marginTop: `10px`,
 									padding: `10px`,
 								}}>
-								Preencha seu e-mail abixo para receber
-								novidades <br /> exclusivas. Fique
-								tranquilo, não enviaremos nenhum <br /> tipo
-								de spam
+								Preencha seu e-mail abaixo para receber
+								novidades exclusivas. Fique tranquilo, não
+								enviaremos nenhum tipo de spam
 							</p>
-							<form>
+							<form style={{ width: `100%` }}>
 								<input
 									type="email"
 									placeholder="Digite seu email"
@@ -1652,20 +1668,9 @@ const IndexPage = () => (
 									Enviar
 								</button>
 							</form>
-						</div>
+						</FaleCard>
 					</Flex1100>
-					<Whatsapp
-						style={{
-							margin: `1vw`,
-							width: `100%`,
-							height: `48.15px`,
-							background: `rgba(0, 0, 0, 0.7)`,
-							borderRadius: `31.297px`,
-							display: `Flex`,
-							FlexTemplateColumns: `repeat(2, minmax(0, 1fr))`,
-							padding: `5px`,
-							alignItems: `center`,
-						}}>
+					<Whatsapp>
 						<div>
 							<StaticImage
 								src="../images/wpp_p.svg"
@@ -1688,7 +1693,7 @@ const IndexPage = () => (
 						</p>
 					</Whatsapp>
 				</div>
-			</Flex1100>
+			</Flex1100Inverse>
 		</section>
 	</div>
 );
