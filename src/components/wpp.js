@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 function Header() {
   return (
     <button
-      style={{ position: `fixed`, paddingTop: `70vh`, paddingLeft: `2vw` }}
+      style={{ position: `fixed`, paddingTop: `60vh`, paddingLeft: `2vw` }}
     >
       <StaticImage
         src="../images/wpp.svg"
